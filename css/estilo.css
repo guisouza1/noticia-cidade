@@ -25,7 +25,6 @@ body{
 	height: 66px;
 	background: url(../imagens/logo.png)no-repeat center;
 	text-indent: -3300px;
-	color: black;
 }
 
 /*barra de navegação*/
@@ -165,16 +164,29 @@ h3{
 	padding: 3px;
 }
 
+h4{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
 
+.destaque h3{
+	background: #b10333;
+	color: #fff;
+	}
+	
 
 .entrevista h3{
-	background: #de003e;	
+background: #de003e;
 }
 
 /*formatar lista de noticias*/
 
-#lista-noticia li a{
-	text-decoration: none;
+#lista-noticia li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
 }
 
 #lista-noticia li a h3{
@@ -185,6 +197,20 @@ h3{
 
 #lista-noticia li a p{
 	font-size: 0.7em;
+}
+
+#lista-noticia li:hover{
+	background: #eee;
+	cursor: pointer;
+}
+
+#lista-noticia li a{
+	text-decoration: none;
+}
+
+#lista-noticia li a img{
+	float: left;
+	margin: 5px;
 }
 
 /*rodape*/
