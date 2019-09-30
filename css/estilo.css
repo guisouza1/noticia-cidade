@@ -29,6 +29,11 @@ body{
 
 /*barra de navegação*/
 
+a:link, a:visited{
+	color: #b10333;
+	padding: 2px;
+}
+
 ul{
 	margin: 0;
 	padding: 0;
@@ -95,6 +100,12 @@ body.ciencia #navegacao a#ciencia
 	margin: 0 0 20px 195px;
 }
 
+#terceiro{
+	width: 750px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+
 #duas-colunas #primario{
 	width: 555px;
 }
@@ -132,6 +143,7 @@ h2{
 }
 
 /* formatar menus laterais*/
+
 #lateral ul a{
 font-size: 0.9em;
 padding: 3px;
@@ -197,6 +209,7 @@ background: #de003e;
 
 #lista-noticia li a p{
 	font-size: 0.7em;
+	color: #000;
 }
 
 #lista-noticia li:hover{
